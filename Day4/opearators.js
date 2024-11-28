@@ -9,16 +9,18 @@ var g = a % b;
 // var i = --b;
 var h = a++;
 var i = b--;
-// console.log(a,b)
-// console.log(c ,d , e , f, g, h, i);
+console.log(a,b)
+console.log(c ,d , e , f, g, h, i);
 
-var a1=10;
-var a2="10"
-// var a3=4
-console.log(a1 > a2)
-console.log(a1 < a2)
-console.log(a1 >= a2)
-console.log(a1 <= a2)
-console.log(a1 == a2)
-console.log(a1 === a2)
+
+// Comparision opearators
+// var a1=10;
+// var a2="10"
+// // var a3=4
+// console.log(a1 > a2)
+// console.log(a1 < a2)
+// console.log(a1 >= a2)
+// console.log(a1 <= a2)
+// console.log(a1 == a2)
+// console.log(a1 === a2)
   
