@@ -1,0 +1,12 @@
+Declaring:
+1.Declare a function with any name
+2.In that function declare an object and add values to it
+3.After ,call the function outside the function.
+
+Working:
+1.When Javascript engine is started it will scan for all variables,functions.
+2.When function is scanned, in call stack a function executive context is created , in that FCE function variables are stored.
+3.When javascript engine sees function first ignores it .It will, only enter into the function when it sees calling function.
+4.After entering the function it will follow line by line execution and exectutes the code.After executing entire code in it. It will exit the function and the FCE created will be deleted.
+ 
+
