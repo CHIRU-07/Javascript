@@ -27,3 +27,29 @@
 // }
 // x()
 
+// //Parameters are identifiers which take arguments x=1,y=2;
+// function a(x,y){ //x,y are called parameters
+//     console.log(x+y)
+// }
+// a(1,2)//At the time of invoking , if i pass some values those are called Arguments
+
+// function abc(x,y,z,w,k){
+//       console.log(x+y+w+z);
+//       console.log(k)
+// }
+// var rrr=[1,2,3,4]
+// abc(1,2,3,4,rrr)
+
+//A function which is passed as an argument to another function at invoking and that function is called as  "Callback function"
+// function parent(x){
+//     x()
+// }
+// parent(function b(){
+//     console.log("b-function")
+// })
+
+// setTimeout( // Function used to set delay
+//     function a(){
+//         console.log("a function")
+//     }
+// ),2000
