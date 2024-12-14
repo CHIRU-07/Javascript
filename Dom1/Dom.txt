@@ -1,0 +1,10 @@
+To Change U.I Dynamically
+*Accesing The elements
+*Updating the elements 
+
+Accesing the elements:
+--getElementById() -->method --Used to select an element by its id
+--getElementByClassName() --Used to select an element by its class
+--getElementByTagName()-- Used to select an element by its Tag name
+--querySelector()-- Used to select an element by its id or class or tag name 
+--querySelectorAll()--Used to select all element by its id or class or tag name 
