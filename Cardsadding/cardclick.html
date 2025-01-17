@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Renderer</title>
+</head>
+<body>
+    <script>
+        // Retrieve the card data from localStorage
+        const cardData = localStorage.getItem("Card");
+
+        if (cardData) {
+            try {
+                // Parse the card data into a JSON object
+                const card = JSON.parse(cardData);
+
+                // Create an element to display the card
+                const cardElement = document.createElement("div");
+                cardElement.style.border = "1px solid black";
+                cardElement.style.padding = "10px";
+                cardElement.style.margin = "10px";
+                cardElement.style.width = "300px";
+                
+
+                // Assuming the card has properties like title and description
+                cardElement.innerHTML = `
+                <img src='${card.image}' width='100%' height='50%'>    
+                <h2>${card.title || "Untitled Card"}</h2>
+                    <p>${card.description || "No description available."}</p>
+                `;
+
+                // Append the card to the body
+                document.body.appendChild(cardElement);
+            } catch (error) {
+                console.error("Error parsing card data:", error);
+            }
+        } else {
+            console.log("No card data found in localStorage.");
+        }
+    </script>
+
+    <script src="./index.js"></script>
+</body>
+</html>
