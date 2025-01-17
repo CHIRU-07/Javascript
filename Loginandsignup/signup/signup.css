@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100vh; 
+}
+
+form{
+    width:30%;
+    height:45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px black solid;
+    padding:20px;
+}
+
+.buttons{
+    display:flex;
+}
