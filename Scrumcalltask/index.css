@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    border: 1px lightgray solid;
+    padding:15px
+}
+.nav_left{
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px black solid; */
+
+}
+#nav-lefticon{
+    padding-bottom: 10px;
+    font-size: 1.45rem;
+}
+#navleft_create{
+    background-color: rgb(25, 103, 229);
+    padding:5px 15px;
+    color: white;
+}
+.nav_right{
+    display: flex;
+    gap:2 5px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    /* border: 2px solid blue; */
+
+}
+.nav_right > i{
+    font-size: 1.15rem;
+}
+.input_search{
+    border:1px solid lightgray;
+    padding: 5px 8px;
+}
+.input_search > input{
+    border: none;
+    outline: none;
+    padding-left: 5px;
+}
+
+.maindiv{
+    display: flex;
+
+}
+
+.sidebar{
+    width:16vw;
+    height:90vh;
+    border: 1px lightgrey solid;
+    
+}
+.planning{
+    padding:25px;
+    border-bottom:2px lightgrey solid;
+}
+
+.planningside{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px
+}
+.planningside > i{
+    padding-bottom:10px;
+    font-size: 1.15rem;
+}
+
+.projectsettings{
+    padding:25px;
+}
+.centerdiv{
+    /* border:2px black solid; */
+    width:84vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:20px;
+}
+.todo{
+    width:22%;
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color:rgb(231, 221, 221);
+    padding: 5px;
+    border-radius: 5px;
+    height:100%
+
+}
+.card{
+    background-color: white;
+    width:99%;
+    padding:2px 8px;
+}
+.card > .todo_1p{
+ width:80%;
+ font-size: 0.86rem;
+}
+ .card >.todo_2p{
+    background-color: rgb(25, 103, 229);
+    color:white;
+    padding:3px 7px;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 27%;
+}
+.todoicon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    font-size: 0.65rem;
+    
+}
+.todoicon > i{
+    margin-bottom: 11px;
+    padding:5px;
+    background-color: rgb(184, 223, 126);
+    
+}
